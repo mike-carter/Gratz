@@ -1,0 +1,28 @@
+{% extends "forum/base.html" %}
+
+{% block title %}Forum - Login{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block content %}
+
+{% if form.errors %}
+<p class="errormsg">Login failed: Could not find username and/or password was incorrect. Please try again</p>
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+
+    {{ form.username.label_tag }}<br>
+    {{ form.username }}<br>
+
+    {{ form.password.label_tag }}<br>
+    {{ form.password }}<br>
+
+    <input type="submit" value="Log in">
+</form>
+<div>Forgot Password? <a href="{% url 'password_reset' %}">Click here.</a></div>
+<div>Not a user? <a href="">Create account.</a></div>
+
+{% endblock %}

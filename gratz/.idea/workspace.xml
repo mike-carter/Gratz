@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbb7ef01-6342-47b0-b52c-8f0184e14eb5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZH8DflsBXL4lojrwRAlVoVGmZ3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/forum/templates/registration" />
+      <recent name="$PROJECT_DIR$/forum" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Gratz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/forum/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbb7ef01-6342-47b0-b52c-8f0184e14eb5" name="Default Changelist" comment="" />
+      <created>1584484540068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584484540068</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2192" y="357" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584495189195">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2192" y="357" width="612" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584495189195" />
+    <state x="2222" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584576810034">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2222" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584576810034" />
+    <state x="2286" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584554998965">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2286" y="310" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584554998965" />
+    <state width="981" height="344" key="GridCell.Tab.0.bottom" timestamp="1584574418291">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418291" />
+    <state width="981" height="344" key="GridCell.Tab.0.center" timestamp="1584574418291">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418291" />
+    <state width="981" height="344" key="GridCell.Tab.0.left" timestamp="1584574418291">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418291" />
+    <state width="981" height="344" key="GridCell.Tab.0.right" timestamp="1584574418291">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418291" />
+    <state width="981" height="344" key="GridCell.Tab.1.bottom" timestamp="1584574418292">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418292" />
+    <state width="981" height="344" key="GridCell.Tab.1.center" timestamp="1584574418292">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418292" />
+    <state width="981" height="344" key="GridCell.Tab.1.left" timestamp="1584574418291">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418291" />
+    <state width="981" height="344" key="GridCell.Tab.1.right" timestamp="1584574418292">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="981" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584574418292" />
+    <state x="2175" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584553988047">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2175" y="381" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584553988047" />
+    <state x="3548" y="130" width="706" height="1011" key="dock-window-1" timestamp="1584555001134">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3548" y="130" width="706" height="1011" key="dock-window-1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584555001134" />
+    <state x="2152" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1584555726137">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2152" y="257" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584555726137" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+{% extends "forum/base.html" %}
+
+{% block title %}New Post{% endblock %}
+
+{% block content %}
+
+<hi>Create new post.</hi>
+
+<div class="item">
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+{% endblock %}

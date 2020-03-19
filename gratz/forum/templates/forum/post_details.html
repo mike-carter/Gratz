@@ -1,0 +1,37 @@
+{% extends "forum/base.html" %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+
+<hi>{{ post.title }}</hi>
+
+<div class="item">
+    <p><em>posted by
+        {% if post.owner %}
+        {{ post.owner.first_name }} {{ post.owner.last_name }}
+        {% else %}
+        [deleted]
+        {% endif %}
+        on {{ post.date_posted }}</em></p>
+    <div class="desc">{{ post.text }}</div>
+</div>
+
+<!-- Comments -->
+<div class="item">
+    <a href="{% url 'forum:comment' post.id %}">Add a comment</a>
+    {% for comment in post.comment_set.all %}
+    <div>
+        <h1>{% if post.owner %}
+        {{ comment.owner.first_name }} {{ comment.owner.last_name }}
+        {% else %}
+        [deleted]
+        {% endif %}</h1>
+        <em>{{ post.date_posted }}</em>
+        <div>{{ comment.text }}</div>
+    </div>
+
+    {% endfor %}
+</div>
+
+{% endblock %}

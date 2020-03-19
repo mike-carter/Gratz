@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Forum{% endblock %}</title>
+    <meta name="description" content="{% block description %}Simple web forum application{% endblock %}" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Michael Carter" />
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" media="screen"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="main">
+
+        <div class="header">
+            <h1><a href="/">Gratz</a></h1>
+        </div>
+
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+
+        <div class="sidenav">
+        {% block sidebar %}
+            {% if user.is_authenticated %}
+                {% if user.first_name %}
+                    <h1>Welcome {{ user.first_name }}</h1>
+                {% else %}
+                    <h1>Welcome {{ user.username }}</h1>
+                {% endif %}
+                <ul>
+                    <li><a href="/">Profile</a></li>
+                    <li><a href="{% url 'logout' %}">Log out</a></li>
+                </ul>
+            {% else %}
+                <a href="{% url 'login' %}">Log in</a>
+            {% endif %}
+
+        {% endblock %}
+        </div>
+
+        <div class="clearer"><span></span></div>
+    </div>
+
+    <div class="footer">
+        &copy; 2020 <a href="/">MJC</a>.
+        Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">XHTML</a>.
+        Template design by <a href="http://templates.arcsin.se">Arcsin</a>
+    </div>
+</div>
+</body>
+</html>

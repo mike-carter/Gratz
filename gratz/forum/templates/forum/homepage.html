@@ -1,0 +1,23 @@
+{% extends "forum/base.html" %}
+
+{% block title %}Forum - Homepage{% endblock %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<a href="{% url 'forum:post_create' %}">New Post</a>
+{% endif %}
+
+{% if most_recent_posts %}
+{% for post in most_recent_posts %}
+<div class="item">
+    <hi><a href="{% url 'forum:post_detail' post.id %}">{{ post.title }}</a></hi>
+    <div class="desc"><p>{{ post.get_post_summary }}</p></div>
+</div>
+{% endfor %}
+
+{% else %}
+<div class="item"><p>There's Nothing Here...</p></div>
+
+{% endif %}
+{% endblock %}
